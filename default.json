@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":timezone(Asia/Tokyo)",
+    ":prImmediately",
+    ":assignAndReview(@shun-shobon)",
+    ":automergePatch",
+    ":automergeRequireAllStatusChecks"
+  ],
+  "rangeStrategy": "bump",
+  "npm": {
+    "extends": [
+      "npm:unpublishSafe",
+      "group:linters",
+      "helpers:disableTypesNodeMajor"
+    ]
+  }
+}
