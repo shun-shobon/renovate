@@ -4,7 +4,6 @@
     "config:base",
     ":timezone(Asia/Tokyo)",
     ":prImmediately",
-    ":assignAndReview(@shun-shobon)",
     ":automergePatch",
     ":automergeRequireAllStatusChecks"
   ],
