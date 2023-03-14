@@ -1,0 +1,17 @@
+{
+  "name": "@shun-shobon/renovate-config",
+  "version": "0.1.0",
+  "description": "My personal Renovate config",
+  "author": "Shuntaro Nishizawa <me@s2n.tech> (https://s2n.tech)",
+  "license": "MIT",
+  "packageManager": "pnpm@7.29.1",
+  "scripts": {
+    "test": "renovate-config-validator default.json",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "renovate": "^35.4.2"
+  }
+}
