@@ -3,6 +3,7 @@
   "extends": [
     "config:base",
     ":timezone(Asia/Tokyo)",
+    ":semanticCommits",
     ":disableDependencyDashboard",
     ":prImmediately",
     ":automergePatch",
