@@ -6,7 +6,7 @@
   "license": "MIT",
   "packageManager": "pnpm@7.30.3",
   "scripts": {
-    "test": "renovate-config-validator default.json",
+    "lint": "renovate-config-validator default.json",
     "prepare": "husky install"
   },
   "devDependencies": {
