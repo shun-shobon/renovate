@@ -9,6 +9,7 @@
     ":automergeRequireAllStatusChecks"
   ],
   "rangeStrategy": "bump",
+  "platformAutomerge": true,
   "regexManagers": [
     {
       "fileMatch": ["\\.tsx?$"],
