@@ -3,12 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   husky: ^8.0.3
   lint-staged: ^13.2.0
-  renovate: ^35.19.1
+  renovate: ^35.19.2
 
 devDependencies:
   husky: 8.0.3
   lint-staged: 13.2.0
-  renovate: 35.19.1
+  renovate: 35.19.2
 
 packages:
 
@@ -4648,8 +4648,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.19.1:
-    resolution: {integrity: sha512-fntTplIwSt11T4OMY0nJajNUvAfiAZayWFxAu2iYTgWHXBz0JY0YQOHu5mrfwj9ys68fOrDrPXOS4BtyHLay4g==}
+  /renovate/35.19.2:
+    resolution: {integrity: sha512-VNnTSvjleCzTCge9vu6jBC69k5h35jGiF/XoESHUdK/O0j+IERkzNZmc4LiCsP+MEXkdr35N+4znTwuP0V/gRw==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
