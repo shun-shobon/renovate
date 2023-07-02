@@ -12,6 +12,6 @@
   "devDependencies": {
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
-    "renovate": "^35.157.1"
+    "renovate": "^35.158.0"
   }
 }
