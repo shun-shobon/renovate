@@ -6,7 +6,7 @@
     ":semanticCommits",
     ":disableDependencyDashboard",
     ":prImmediately",
-    ":automergePatch",
+    ":automergeMinor",
     ":automergeRequireAllStatusChecks"
   ],
   "rangeStrategy": "bump",
