@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^13.2.3
     version: 13.2.3
   renovate:
-    specifier: ^36.35.1
-    version: 36.35.1(typanion@3.12.1)
+    specifier: ^36.36.1
+    version: 36.36.1(typanion@3.12.1)
 
 packages:
 
@@ -4736,9 +4736,9 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.35.1(typanion@3.12.1):
-    resolution: {integrity: sha512-eu9onhFE8xUCe+nMbZB7K3AG1jsNB0C02idbc6ewR8l46Op7XDXMRNxTD/MHBAombrQZoL4CuQha3XFZwO/+YQ==}
-    engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.6.11}
+  /renovate@36.36.1(typanion@3.12.1):
+    resolution: {integrity: sha512-6Wy90XyQseeqHPKLcbobZTG8xVRRitjuzFxqW+Y/QFX2mQYDfEqSB+qPz0qgK02inSfRhQFU/pOqRXbwzCQ3Sw==}
+    engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
       '@aws-sdk/client-codecommit': 3.363.0
