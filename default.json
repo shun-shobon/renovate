@@ -47,5 +47,8 @@
       "group:linters",
       "helpers:disableTypesNodeMajor"
     ]
+  },
+  "asdf": {
+    "minimumReleaseAge": "1 days"
   }
 }
