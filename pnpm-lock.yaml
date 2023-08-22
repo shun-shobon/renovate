@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^14.0.1
     version: 14.0.1
   renovate:
-    specifier: ^36.56.1
-    version: 36.56.1(typanion@3.12.1)
+    specifier: ^36.57.1
+    version: 36.57.1(typanion@3.12.1)
 
 packages:
 
@@ -4705,8 +4705,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.56.1(typanion@3.12.1):
-    resolution: {integrity: sha512-dGHiM7/ug7iDfjI73jPKY4F5Dv6D8arLqYLbjCfVgD8uiTahfKHvnRGNIjC+ojUjzd2qccU+DeFyscaTJ/Jjiw==}
+  /renovate@36.57.1(typanion@3.12.1):
+    resolution: {integrity: sha512-/TlMHuY8TtCgM7ov1hH9wa5j6ZFfqtvYxg0n/bjBIGRYCfz3suiPCc5cnIx8HBB0EC5tJKiYLoO5xE6soaxnRg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4814,7 +4814,7 @@ packages:
       validate-npm-package-name: 5.0.0
       vuln-vects: 1.1.0
       xmldoc: 1.3.0
-      zod: 3.22.0
+      zod: 3.22.1
     optionalDependencies:
       re2: 1.20.1
     transitivePeerDependencies:
@@ -5657,8 +5657,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod@3.22.0:
-    resolution: {integrity: sha512-y5KZY/ssf5n7hCGDGGtcJO/EBJEm5Pa+QQvFBeyMOtnFYOSflalxIFFvdaYevPhePcmcKC4aTbFkCcXN7D0O8Q==}
+  /zod@3.22.1:
+    resolution: {integrity: sha512-+qUhAMl414+Elh+fRNtpU+byrwjDFOS1N7NioLY+tSlcADTx4TkCUua/hxJvxwDXcV4397/nZ420jy4n4+3WUg==}
     dev: true
 
   /zwitch@1.0.5:
