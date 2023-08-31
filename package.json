@@ -4,7 +4,7 @@
   "description": "My personal Renovate config",
   "author": "Shuntaro Nishizawa <me@s2n.tech> (https://s2n.tech)",
   "license": "MIT",
-  "packageManager": "pnpm@8.7.0",
+  "packageManager": "pnpm@8.7.1",
   "scripts": {
     "lint": "renovate-config-validator default.json",
     "prepare": "husky install"
