@@ -46,6 +46,12 @@
       "npm:unpublishSafe",
       "group:linters",
       "helpers:disableTypesNodeMajor"
+    ],
+    "packageRules": [
+      {
+        "matchPackagePrefixes": ["@shun-shobon/eslint-"],
+        "groupName": "linters"
+      }
     ]
   },
   "asdf": {
