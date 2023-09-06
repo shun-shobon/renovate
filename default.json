@@ -1,60 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended",
-    ":timezone(Asia/Tokyo)",
-    ":semanticCommits",
-    ":prImmediately",
-    ":automergeMinor",
-    ":automergeRequireAllStatusChecks"
-  ],
-  "rangeStrategy": "bump",
-  "platformAutomerge": true,
-  "prHourlyLimit": 0,
-  "regexManagers": [
-    {
-      "fileMatch": ["\\.tsx?$"],
-      "matchStrings": [
-        "(?:im|ex)port(?:.|\\s)+?from\\s*['\"](?<depName>https://deno.land/.+?)@v?(?<currentValue>\\d+?\\.\\d+?\\.\\d+?).*?['\"]"
-      ],
-      "datasourceTemplate": "deno"
-    },
-    {
-      "fileMatch": ["^import_map.json$"],
-      "matchStrings": [
-        "\".+?\"\\s*:\\s*\"(?<depName>https://deno.land/.+?)@v?(?<currentValue>\\d+?\\.\\d+?\\.\\d+?).*?\""
-      ],
-      "datasourceTemplate": "deno"
-    },
-    {
-      "fileMatch": ["\\.tsx?$"],
-      "matchStrings": [
-        "(?:im|ex)port(?:.|\\s)+?from\\s*['\"]npm:(?<depName>.+?)@(?<currentValue>\\d+?\\.\\d+?\\.\\d+?).*?['\"]"
-      ],
-      "datasourceTemplate": "npm"
-    },
-    {
-      "fileMatch": ["^import_map.json$"],
-      "matchStrings": [
-        "\".+?\"\\s*:\\s*\"npm:(?<depName>.+?)@(?<currentValue>\\d+?\\.\\d+?\\.\\d+?).*?\""
-      ],
-      "datasourceTemplate": "npm"
-    }
-  ],
-  "npm": {
-    "extends": [
-      "npm:unpublishSafe",
-      "group:linters",
-      "helpers:disableTypesNodeMajor"
-    ],
-    "packageRules": [
-      {
-        "matchPackagePrefixes": ["@shun-shobon/eslint-"],
-        "groupName": "linters"
-      }
-    ]
-  },
-  "asdf": {
-    "minimumReleaseAge": "1 days"
-  }
+    "github>shun-shobon/renovate-config:base.json5",
+    "github>shun-shobon/renovate-config:npm.json5",
+    "github>shun-shobon/renovate-config:deno.json5",
+    "github>shun-shobon/renovate-config:asdf.json5"
+  ]
 }

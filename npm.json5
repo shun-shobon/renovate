@@ -1,0 +1,20 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  npm: {
+    extends: [
+      // Unpablish される可能性がある3日間の間は更新しない
+      "npm:unpublishSafe",
+      // Linter をまとめて更新する
+      "group:linters",
+      // `@types/node` のメジャーバージョンは更新しない
+      "helpers:disableTypesNodeMajor",
+    ],
+    packageRules: [
+      // `@shun-shobon/eslint-*` もLinterとまとめて更新
+      {
+        matchPackagePrefixes: ["@shun-shobon/eslint-"],
+        groupName: "linters",
+      },
+    ],
+  },
+}
