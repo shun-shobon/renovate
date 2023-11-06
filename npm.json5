@@ -8,6 +8,8 @@
       "group:linters",
       // `@types/node` のメジャーバージョンは更新しない
       "helpers:disableTypesNodeMajor",
+      // peer depsの更新はbumpではなくwidenで行う
+      ":widenPeerDependencies",
     ],
     packageRules: [
       // `@shun-shobon/eslint-*` もLinterとまとめて更新
