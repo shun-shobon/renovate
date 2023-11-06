@@ -14,6 +14,8 @@
     ":automergeMinor",
     // CIが全て成功したら自動マージする
     ":automergeRequireAllStatusChecks",
+    // ロックファイルを毎週更新する
+    ":maintainLockFilesWeekly",
   ],
   // バージョンアップデートはbumpを使用
   // https://docs.renovatebot.com/configuration-options/#rangestrategy
