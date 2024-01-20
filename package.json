@@ -1,17 +1,22 @@
 {
-  "name": "@shun-shobon/renovate-config",
-  "version": "0.1.0",
-  "description": "My personal Renovate config",
-  "author": "Shuntaro Nishizawa <me@s2n.tech> (https://s2n.tech)",
-  "license": "MIT",
-  "packageManager": "pnpm@8.14.1",
-  "scripts": {
-    "lint": "renovate-config-validator default.json *.json5",
-    "prepare": "husky install"
-  },
-  "devDependencies": {
-    "husky": "^8.0.3",
-    "lint-staged": "^15.2.0",
-    "renovate": "^37.140.12"
-  }
+	"name": "@shun-shobon/renovate-config",
+	"version": "0.1.0",
+	"type": "module",
+	"description": "My personal Renovate config",
+	"author": "Shuntaro Nishizawa <me@s2n.tech> (https://s2n.tech)",
+	"license": "MIT",
+	"packageManager": "pnpm@8.14.1",
+	"scripts": {
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
+		"lint": "renovate-config-validator default.json *.json5",
+		"prepare": "husky install"
+	},
+	"devDependencies": {
+		"@shun-shobon/prettier-config": "^0.2.5",
+		"husky": "^8.0.3",
+		"lint-staged": "^15.2.0",
+		"prettier": "^3.2.4",
+		"renovate": "^37.140.12"
+	}
 }
