@@ -12,9 +12,8 @@
       ":widenPeerDependencies",
     ],
     packageRules: [
-      // `@shun-shobon/eslint-*` もLinterとまとめて更新
       {
-        matchPackagePrefixes: ["@shun-shobon/eslint-"],
+        matchPackageNames: ["@shun-shobon/eslint-config", "@shun-shobon/prettier-config"],
         groupName: "linters",
       },
     ],
