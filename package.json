@@ -13,7 +13,7 @@
 	},
 	"devDependencies": {
 		"@shun-shobon/prettier-config": "^0.2.5",
-		"prettier": "^3.2.4",
+		"prettier": "^3.2.5",
 		"renovate": "^37.170.0"
 	}
 }
