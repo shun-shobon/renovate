@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^3.2.5
     version: 3.2.5
   renovate:
-    specifier: ^37.188.0
-    version: 37.188.0(typanion@3.14.0)
+    specifier: ^37.189.1
+    version: 37.189.2(typanion@3.14.0)
 
 packages:
 
@@ -2629,6 +2629,11 @@ packages:
     engines: {node: '>=16'}
     dev: true
 
+  /commander@12.0.0:
+    resolution: {integrity: sha512-MwVNWlYjDTtOjX5PiD7o5pK0UrFU/OYgcJfjjK4RaHZETNtjJqrZa9Y9ds88+A+f+d5lv+561eZ+yCKoS3gbAA==}
+    engines: {node: '>=18'}
+    dev: true
+
   /comment-parser@1.4.1:
     resolution: {integrity: sha512-buhp5kePrmda3vhc5B9t7pUQXAb2Tnd0qgpkIhPhkHXxJpiPJ11H0ZEU0oBpJ2QztSbzG/ZxMj/CHsYJqRHmyg==}
     engines: {node: '>= 12.0.0'}
@@ -4971,8 +4976,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.188.0(typanion@3.14.0):
-    resolution: {integrity: sha512-6/9yx1JvV+++uoveyb2cIS/7Kti7nL1i6w+e12OJnN0j4f6F1KX05ZSXSvAdEynXA7IpNzy4FKyPRY//mLoALg==}
+  /renovate@37.189.2(typanion@3.14.0):
+    resolution: {integrity: sha512-vXz0kjCXm60k2sec4tS8fVuc19hb2JgCg/pPMQgsHecOY+WzYXZ5ZNhVhzUhreALLMF9yeQxt9SelNV4lXPvtw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -5016,7 +5021,7 @@ packages:
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
-      commander: 11.1.0
+      commander: 12.0.0
       conventional-commits-detector: 1.0.3
       cron-parser: 4.9.0
       deepmerge: 4.3.1
