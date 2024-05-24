@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@shun-shobon/prettier-config':
-        specifier: ^0.4.0
-        version: 0.4.0(prettier@3.2.5)
+        specifier: ^0.4.1
+        version: 0.4.1(prettier@3.2.5)
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -632,8 +632,8 @@ packages:
   '@seald-io/nedb@4.0.4':
     resolution: {integrity: sha512-CUNcMio7QUHTA+sIJ/DC5JzVNNsHe743TPmC4H5Gij9zDLMbmrCT2li3eVB72/gF63BPS8pWEZrjlAMRKA8FDw==}
 
-  '@shun-shobon/prettier-config@0.4.0':
-    resolution: {integrity: sha512-N/vSqTmhHFYr9G7sNYh1eDGV+7MTrDBwTSvGidebMqYMuDaxNCqXfIWEaTfz7zgTbvzcroQrFEy/FkkML11JLw==}
+  '@shun-shobon/prettier-config@0.4.1':
+    resolution: {integrity: sha512-aubL02Y+CbVeAwqHCkBxwiteGime27oAtKSHkd9/CX51M2BzjjqVYwSrHimmjfL3uN/pxwHKZakwTb8cJjTFaQ==}
     peerDependencies:
       prettier: ^3.0.0
 
@@ -4793,7 +4793,7 @@ snapshots:
       localforage: 1.10.0
       util: 0.12.5
 
-  '@shun-shobon/prettier-config@0.4.0(prettier@3.2.5)':
+  '@shun-shobon/prettier-config@0.4.1(prettier@3.2.5)':
     dependencies:
       local-pkg: 0.5.0
       prettier: 3.2.5
