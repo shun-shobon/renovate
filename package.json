@@ -12,7 +12,7 @@
 		"lint": "renovate-config-validator default.json *.json5"
 	},
 	"devDependencies": {
-		"@shun-shobon/prettier-config": "^0.4.2",
+		"@shun-shobon/prettier-config": "^0.4.3",
 		"prettier": "^3.3.0",
 		"renovate": "^37.388.2"
 	}
