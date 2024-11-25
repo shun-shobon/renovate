@@ -15,9 +15,7 @@
 		],
 		packageRules: [
 			{
-				matchPackageNames: [
-					"@shun-shobon/style-guide",
-				],
+				matchPackageNames: ["@shun-shobon/style-guide"],
 				groupName: "linters",
 			},
 		],
