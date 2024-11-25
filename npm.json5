@@ -1,9 +1,11 @@
 {
 	$schema: "https://docs.renovatebot.com/renovate-schema.json",
+	extends: [
+		// Unpablish される可能性がある3日間の間は更新しない
+		"npm:unpublishSafe",
+	],
 	npm: {
 		extends: [
-			// Unpablish される可能性がある3日間の間は更新しない
-			"npm:unpublishSafe",
 			// Linter をまとめて更新する
 			"group:linters",
 			// `@types/node` のメジャーバージョンは更新しない
@@ -14,8 +16,7 @@
 		packageRules: [
 			{
 				matchPackageNames: [
-					"@shun-shobon/eslint-config",
-					"@shun-shobon/prettier-config",
+					"@shun-shobon/style-guide",
 				],
 				groupName: "linters",
 			},

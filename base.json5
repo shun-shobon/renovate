@@ -14,6 +14,8 @@
 		":automergeMinor",
 		// CIが全て成功したら自動マージする
 		":automergeRequireAllStatusChecks",
+		// 毎週更新を行う
+		"schedule:weekly",
 		// ロックファイルを毎週更新する
 		":maintainLockFilesWeekly",
 	],
